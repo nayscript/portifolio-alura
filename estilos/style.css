@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2B2B2B;
+}
+
+header .menu__lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu__lista__item__link{
+    color: #FF577F;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+.menu .menu__lista{
+    list-style-type: none;
+}
+
+header .menu__lista__item__link:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.menu .menu__lista .menu__lista__item{
+    display: inline-block;
+    padding: 0 40px;
+}
